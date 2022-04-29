@@ -1,0 +1,30 @@
+#include <stdio.h>
+int main()
+{// C coding for finding area of circle, square and rectangle.
+printf("enter 1 for radius\n enter 2 for side\n enter 3 for length and breadth");
+int operation;
+scanf("%d",&operation);
+if(operation==1){
+     float radius,area;
+     printf("enter radius\n");
+     scanf("%f",&radius);
+     area = 3.14*radius*radius;
+     printf("area of circle is %f\n,"area);
+}
+else if (operation==2){
+     float side,area;
+     printf("enter side \n");
+     scanf("%f",&side);
+     area = side*side;
+     printf("area of square is %f",area); 
+}
+else (operation==3){
+     float length,breadth,area;
+     printf("enter length and breadth\n");
+     scanf("%f\n%f",&length,&breadth);
+     area = length*breadth;
+     printf("area of rectangle is %f",area);
+}
+return 0;
+}
+     
