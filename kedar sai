@@ -1,4 +1,5 @@
 
+
 #include <stdio.h>
 int main()
 {// C coding for finding area of circle, square and rectangle.
